@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+
+
+:root {
+    font-size: 1.5rem;
+}
+
+.container {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Shizuru', cursive;
+    margin-bottom: 50px;
+}
+
+.container > div > div {
+    display: flex;
+    justify-content: space-between;
+    width: 40rem;
+
+   
+}
+
+.question-1 {
+    margin: 25px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: lightgray;
+}
+
+button {
+    font-size: 1.2rem;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+button:hover{
+    background-color: white;
+}
+
+.answer-show-1{
+    background-color: black;
+    position: absolute;
+    top: 13%;
+    left: 2.7%;
+    
+}
