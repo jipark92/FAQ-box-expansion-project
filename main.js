@@ -13,3 +13,12 @@ answerOneBtn.addEventListener('click',()=>{
 })
 
 
+answerTwoBtn.addEventListener('click',()=>{
+    showAnswerTwo.classList.toggle('answer-2');
+    console.log(showAnswerTwo);
+})
+
+answerThreeBtn.addEventListener('click',()=>{
+    showAnswerThree.classList.toggle('answer-3');
+    console.log(showAnswerThree);
+})

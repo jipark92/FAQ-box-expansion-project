@@ -26,6 +26,12 @@
     display: flex;
     justify-content: space-between;
     width: 40rem; 
+    border-bottom: 1px solid black;
+}
+
+.question-title > p {
+    color: red;
+    font-size: 1.2rem;
 }
 
 .question-box{
@@ -36,23 +42,31 @@
     background-color: lightgray;
 }
 
-button {
+.question-title button {
     font-size: 1.2rem;
     background-color: lightgray;
     border: 1px none black;
+    color: blue;
 }
 
-button:hover{
+.question-title button:hover{
     color: blue;
     font-size: 1.5rem;
 }
 
+.close-btn {
+    color: red;
+    font-size: 1.3rem;
+    border: none;
+    background-color: lightgray;
+    
+}
 /*  WORK ON JAVASCRIPT FOR THIS BELOW */
 
 .answer-1 {
     border-top: 1px solid black;
+    display:none;
     visibility: hidden;
-    display: none;
 }
 
 .answer-2 {
