@@ -49,18 +49,18 @@ button:hover{
 
 /*  WORK ON JAVASCRIPT FOR THIS BELOW */
 
-.question-answer-1 {
+.answer-1 {
     border-top: 1px solid black;
     visibility: hidden;
     display: none;
 }
 
-.question-answer-2 {
+.answer-2 {
     visibility: hidden;
     display: none;
 }
 
-.question-answer-3 {
+.answer-3 {
     visibility: hidden;
     display: none;
 }
