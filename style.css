@@ -6,7 +6,7 @@
 }
 
 .container {
-    height: 50vh;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,11 +35,14 @@
 }
 
 .question-box{
+
+    
     margin: 25px;
     box-shadow: 5px 5px 5px gray;
     border-radius: 10px;
     padding: 25px;
     background-color: lightgray;
+    
 }
 
 .question-title button {
@@ -64,17 +67,28 @@
 /*  WORK ON JAVASCRIPT FOR THIS BELOW */
 
 .answer-1 {
-    border-top: 1px solid black;
+
     display:none;
     visibility: hidden;
 }
 
 .answer-2 {
+
     visibility: hidden;
     display: none;
 }
 
 .answer-3 {
+    visibility: hidden;
+    display: none;
+}
+
+.answer-4 {
+    visibility: hidden;
+    display: none;
+}
+
+.answer-5 {
     visibility: hidden;
     display: none;
 }
